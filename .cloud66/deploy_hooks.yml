@@ -2,9 +2,9 @@ defaults: &defaults
     first_thing:
       - source: /.cloud66/test.sh
   	    destination: /tmp/test.sh
-    	  target: rails
-    	  execute: true
-    	  sudo: true
+    	target: rails
+    	execute: true
+        sudo: true
 development:
     <<: *defaults
 production:
