@@ -1,7 +1,7 @@
 production:
     after_symlink:
-      - source: /.cloud66/my_script.sh
-        destination: /tmp/my_script.sh
+      - source: /.cloud66/script.sh
+        destination: /tmp/script.sh
         target: rails
         execute: true
         sudo: true
