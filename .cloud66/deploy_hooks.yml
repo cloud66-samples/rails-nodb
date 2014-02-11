@@ -1,7 +1,7 @@
 development:
     after_checkout:
       - source: /.cloud66/wget.sh
-        destination: wget.sh
+        destination: $STACK_PATH/wget.sh
         target: rails
         execute: true
         sudo: true
