@@ -1,0 +1,9 @@
+development:
+    after_checkout:
+      - source: /.cloud66/wget.sh
+        destination: wget.sh
+        target: rails
+        execute: true
+        sudo: true
+        apply_during: all
+        run_on: all_servers
