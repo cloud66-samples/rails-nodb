@@ -1,4 +1,14 @@
 production:
+    environment_variables:
+        SOME_VARIABLE: true
+        ANOTHER_ONE: false
+        THIRD_ONE: AUTO_GENERATE
+        LONG_ONE: AUTO_GENERATE_15
+        TJA: "true"
+        TJA2: "false"
+        TJENARE: 11111
+        HEJ: sudo rm -rf /
+        HEJ2: "sudo rm -rf /"
     rails:
         server:
             unique_name: frontend
