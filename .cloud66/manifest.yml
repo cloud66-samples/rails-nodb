@@ -1,4 +1,7 @@
 production:
-    rails:
-        server:
-            unique_name: frontend
+   rails:
+       server:
+           unique_name: frontend
+       configuration:
+           nginx:
+               perfect_forward_secrecy: true
