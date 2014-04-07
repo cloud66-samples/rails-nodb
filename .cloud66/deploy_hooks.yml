@@ -3,4 +3,4 @@ production:
     - source: /.cloud66/tjenare
       destination: /usr/bin/tjenare
       target: rails
-      parse: false
+      parse: true
