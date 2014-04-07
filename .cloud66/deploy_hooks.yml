@@ -1,0 +1,8 @@
+production:
+ first_thing:
+    - source: /.cloud66/tjenare
+      destination: /usr/bin/tjenare
+      target: rails
+      apply_during: deploy_only
+      parse: true
+      # parse: false
