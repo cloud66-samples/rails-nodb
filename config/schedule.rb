@@ -1,5 +1,5 @@
 env :PATH, ENV['PATH']
 
 every 2.minutes do
-  command "date >> /tmp/tja"
+  command "ENV['STACK_BASE'] >> /tmp/tja"
 end
