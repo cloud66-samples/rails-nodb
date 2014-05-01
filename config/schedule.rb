@@ -14,6 +14,6 @@ def primary_runner(command)
   runner("if ENV['PRIMARY'] == 'true'; #{command}; end")
 end
 
-every 15.minutes, roles: [:app] do
+every 1.minute, roles: [:app] do
   primary_runner 'HillController.tjenare' # runs on primary app server only
 end
