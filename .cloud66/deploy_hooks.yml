@@ -1,5 +1,5 @@
 production:
-  first_thing:
+  after_rails:
     - command: $STACK_PATH/.cloud66/test.sh
       target: any
       sudo: true
