@@ -1,5 +1,5 @@
 production:
   first_thing:
-    - command: .cloud66/test.sh
+    - command: $STACK_PATH/.cloud66/test.sh
       target: any
       sudo: true
