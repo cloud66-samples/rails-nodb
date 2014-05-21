@@ -10,10 +10,10 @@
 
 env :PATH, ENV['PATH']
 
-def primary_runner(command)
-  runner("if ENV['PRIMARY'] == 'true'; #{command}; end")
+every 10.minutes do
+  command "pwd"
 end
 
-every 1.minute, roles: [:app] do
-  primary_runner 'HillController.tjenare' # runs on primary app server only
+every 45.minutes do
+  command "pwd"
 end
