@@ -12,7 +12,7 @@ env :PATH, ENV['PATH']
 
 #if ENV['PRIMARY'] == 'true'
  # if ENV['RAILS_ENV'] == 'production'
-    every 4.hours, roles: [:app] do
+    every 1.minutes, roles: [:app] do
       rake "test:work_single"
     end
   #end
