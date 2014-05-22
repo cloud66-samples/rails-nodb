@@ -10,10 +10,10 @@
 
 env :PATH, ENV['PATH']
 
-if ENV['PRIMARY'] == 'true'
-  if ENV['RAILS_ENV'] == 'production'
+#if ENV['PRIMARY'] == 'true'
+ # if ENV['RAILS_ENV'] == 'production'
     every 4.hours, roles: [:app] do
-      rake "bundle exec rake test:work"
+      rake "test:work_single"
     end
-  end
-end
+  #end
+#end
