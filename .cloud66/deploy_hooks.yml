@@ -1,0 +1,4 @@
+production: 
+    first_thing:
+        command: pwd >> /tmp/folder.txt
+        target: any
