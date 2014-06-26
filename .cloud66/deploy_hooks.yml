@@ -6,4 +6,4 @@ production:
       apply_during: all
       run_on: all_servers
       execute: true
-      #sudo: true
+      sudo: true
