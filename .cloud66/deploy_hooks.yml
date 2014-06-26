@@ -1,0 +1,15 @@
+production:
+  after_rails:
+    - source: /.cloud66/setup_microsites.sh
+      destination: /root/scripts/setup_microsites.sh
+      target: rails
+      apply_during: all
+      run_on: all_servers
+  after_symlink:
+    - source: /.cloud66/scripts/setup_microsites.sh
+      destination: /root/scripts/setup_microsites.sh
+      target: rails
+      apply_during: all
+      run_on: all_servers
+      execute: true
+      sudo: true
