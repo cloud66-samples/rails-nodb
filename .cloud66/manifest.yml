@@ -4,4 +4,4 @@ production:
       server:
         unique_name: frontend
         extra_packages:
-          - htop
+          - libqt4-dev
