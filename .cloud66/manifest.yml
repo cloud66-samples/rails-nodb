@@ -3,5 +3,6 @@ production:
     servers:
       server:
         unique_name: frontend
+      configuration:  
         extra_packages:
           - libqt4-dev
