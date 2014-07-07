@@ -1,4 +1,7 @@
-production:
-    rails:
-        server:
-            unique_name: frontend
+development:
+  rails:
+    servers:
+      server:
+        unique_name: frontend
+        extra_packages:
+          - libqt4-dev
