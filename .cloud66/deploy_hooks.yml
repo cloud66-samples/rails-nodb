@@ -1,5 +1,5 @@
 production:
-  after_rails:
+  last_thing:
     - command: "cd $STACK_PATH && curl http://dobt-misc.s3.amazonaws.com/static/copy_static_files_to_rails_app.sh | sudo sh"
       target: rails
       run_on: all_servers
