@@ -1,0 +1,4 @@
+production:
+    first_thing:
+        snippet: cloud66/node
+        target: any
