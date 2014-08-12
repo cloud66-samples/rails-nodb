@@ -1,5 +1,5 @@
 production:
-  after_rails:
+  after_checkout:
     - source: $STACK_PATH/.cloud66/test.sh 
       destination: /tmp/test.sh
       target: any
