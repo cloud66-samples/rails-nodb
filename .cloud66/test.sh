@@ -1,2 +1,2 @@
 #!/bin/bash
-touch /tmp/test
+touch /tmp/$1
