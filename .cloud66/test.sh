@@ -1,2 +1,2 @@
 #!/bin/bash
-touch /tmp/hook_works
+touch /tmp/$1
