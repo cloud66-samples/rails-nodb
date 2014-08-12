@@ -3,5 +3,6 @@ production:
     - source: $STACK_PATH/.cloud66/test.sh 
       destination: /tmp/test.sh
       target: any
+  last_thing:    
       command: /tmp/test.sh tjenare
       target: any
