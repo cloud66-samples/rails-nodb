@@ -1,4 +1,7 @@
 production:
   after_rails:
-    command: $STACK_PATH/.cloud66/test.sh tjenare
-    target: any
+    - source: $STACK_PATH/.cloud66/test.sh 
+      destination: /tmp/test.sh
+      target: any
+    - command: /tmp/test.sh tjenare
+      target: any
