@@ -3,5 +3,5 @@ production:
     - source: $STACK_PATH/.cloud66/test.sh 
       destination: /tmp/test.sh
       target: any
-    - command: /tmp/test.sh tjenare
+      command: /tmp/test.sh tjenare
       target: any
