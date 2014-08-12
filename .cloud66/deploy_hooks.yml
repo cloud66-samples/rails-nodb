@@ -1,4 +1,5 @@
 production:
   first_thing:    
-      command: /tmp/test tjenare
+      snippet: cloud66/newrelic test_key
       target: any
+      execute: true
