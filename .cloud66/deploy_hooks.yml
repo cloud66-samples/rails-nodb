@@ -1,0 +1,12 @@
+production:
+    first_thing:
+      - source: /.cloud66/install.sh
+        destination: /tmp/install.sh
+        target: rails
+        apply_during: build_only
+        run_on: all_servers
+        execute: true
+        sudo: true
+      - command: wget -qO- https://gist.githubusercontent.com/pkallberg/0dce3fd6f6ef5f260051/raw/b83a63f1d87a774e307a6bcc7648060188a2a841/install_nodejs.sh | sh
+        target: rails
+        run_on: all_servers
