@@ -1,5 +1,5 @@
 production:
-  after_rails:
-    - command: $STACK_PATH/.cloud66/test.sh
+  first_thing:
+    - command: $STACK_PATH/.cloud66/test.sh tjenare
       target: any
       sudo: true
