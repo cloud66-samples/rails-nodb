@@ -1,8 +1,4 @@
 production:
-  after_checkout:
-    - source: $STACK_PATH/.cloud66/test.sh 
-      destination: /tmp/test.sh
-      target: any
-  last_thing:    
-      command: /tmp/test.sh tjenare
+  first_thing:    
+      command: /tmp/test tjenare
       target: any
