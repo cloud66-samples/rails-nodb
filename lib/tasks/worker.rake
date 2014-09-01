@@ -1,4 +1,4 @@
-namespace :test do
+namespace :tja do
   task :work => :environment do
     loop do
   	  puts "I'm working"
