@@ -1,4 +1,6 @@
 production:
-    rails:
-        server:
-            unique_name: frontend
+	rails:
+		server:
+		    unique_name: frontend
+		    extra_packages:
+		            - openjdk-7-jdk
