@@ -1,4 +1,8 @@
+#production: # Environment
+#    first_thing: # Hook point
+#      - snippet: cloud66/newrelic # Hook type
+#        target: any # Hook fields
 production: # Environment
     first_thing: # Hook point
-      - snippet: cloud66/newrelic # Hook type
+      - command: apt-get install curl -y # Hook type
         target: any # Hook fields
