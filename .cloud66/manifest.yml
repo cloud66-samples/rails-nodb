@@ -2,3 +2,4 @@ production:
     load_balancer:
         configuration:
             httpchk: /tjena
+            balance: leastconn 
