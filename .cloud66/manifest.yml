@@ -1,3 +1,4 @@
-load_balancer:
-    configuration:
-        httpchk: / 
+production:
+    load_balancer:
+        configuration:
+            httpchk: /tjena
