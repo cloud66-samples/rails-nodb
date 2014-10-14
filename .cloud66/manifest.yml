@@ -1,5 +1,12 @@
 production:
     load_balancer:
         configuration:
-            httpchk: /tjena
-            balance: leastconn 
+            httpchk: HEAD /tjena HTTP/1.0
+            balance: roundrobin
+            errorfile_400: /etc/haproxy/errors/400.http
+            errorfile_403: /etc/haproxy/errors/403.http
+            errorfile_408: /etc/haproxy/errors/408.http
+            errorfile_500: /etc/haproxy/errors/500.http
+            errorfile_502: /etc/haproxy/errors/502.http
+            errorfile_503: /etc/haproxy/errors/503.http
+            errorfile_504: /etc/haproxy/errors/504.http
