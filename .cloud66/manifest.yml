@@ -1,4 +1,4 @@
 production:
-    rails:
-        server:
-            unique_name: frontend
+    load_balancer:
+        configuration:
+            balance: LEAST_CONNECTIONS 
