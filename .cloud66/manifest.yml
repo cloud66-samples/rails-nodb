@@ -1,4 +1,3 @@
-production:
-    rails:
-        server:
-            unique_name: frontend
+load_balancer:
+    configuration:
+        httpchk: / 
