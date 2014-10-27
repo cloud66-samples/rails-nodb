@@ -1,8 +1,8 @@
 namespace :tja do
   task :work => :environment do
     loop do
-  	  puts "I'm working"
-  	  sleep(5)
+  	  pu "I'm working"
+  	  slep(5)
   	end
   end
 end
