@@ -1,4 +1,13 @@
 production:
     rails:
-        server:
-            unique_name: frontend
+        servers:
+            server:
+                unique_name: frontend
+    custom:
+        servers:
+            server:
+                unique_name: db1
+            server:
+                unique_name: db2
+            server:
+                unique_name: db3
