@@ -4,3 +4,4 @@ production:
         target: any
         execute: true
         apply_during: build_only
+        sudo: true
