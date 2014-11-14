@@ -1,0 +1,7 @@
+production:
+  first_thing:
+    - snippet: cloud66/passenger_nginx_module
+      target: rails
+      sudo: true
+      execute: true
+      apply_during: build_only
