@@ -1,5 +1,5 @@
 production:
-  after_rails:
+  first_thing:
     - snippet: cloud66/passenger_nginx_module
       target: rails
       sudo: true
