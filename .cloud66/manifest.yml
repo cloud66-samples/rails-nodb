@@ -2,3 +2,6 @@ production:
     rails:
         server:
             unique_name: frontend
+            size: nb.2G
+            vendor: vexxhost
+            region: default
