@@ -1,0 +1,8 @@
+production:
+  first_thing:
+    - snippet: cloud66/phantomjs
+      target: rails
+      run_on: all_servers
+      sudo: true
+      execute: true
+      apply_during: build_only
