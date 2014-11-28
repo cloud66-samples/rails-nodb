@@ -1,6 +1,4 @@
 production:
     rails:
-        server:
-            unique_name: frontend
         configuration:
             asset_pipeline_precompile: true
