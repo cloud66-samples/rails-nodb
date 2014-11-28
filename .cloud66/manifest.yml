@@ -3,4 +3,4 @@ production:
         server:
             unique_name: frontend
         configuration:
-		    asset_pipeline_precompile: true
+            asset_pipeline_precompile: true
