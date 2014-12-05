@@ -1,0 +1,7 @@
+production:
+  first_thing:
+    - snippet: cloud66/node
+      target: any
+      sudo: true
+      execute: true
+      apply_during: build_only
