@@ -1,5 +1,8 @@
-production: # Environment
-    first_thing: # Hook point
-      - snippet: cloud66/newrelic # Hook type
-        target: any # Hook fields
-        execute: true
+production:
+  first_thing:
+    - command: apt-get install -y postgresql-client
+      target: rails
+      apply_during: build_only
+    - command: sudo apt-get install libicu-dev --assume-yes
+      target: rails
+      apply_during: all
