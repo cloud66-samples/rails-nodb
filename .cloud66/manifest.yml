@@ -4,4 +4,4 @@ production: # 1. Environment type
             server: # 3. Server type (optional)
                 unique_name: frontend
         configuration: # 4. Application specific configurations
-            ruby_version: 2.2.0-rc1
+            ruby_version: 2.2.0
