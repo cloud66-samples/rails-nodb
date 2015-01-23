@@ -1,5 +1,7 @@
-production:
-  rails:
-    configuration:
-      nginx:
-        perfect_forward_secrecy: true
+production:    
+    rails:
+        configuration:
+            nginx:
+                cors:
+                    origin: '*'
+                    methods: 'GET, OPTION'
