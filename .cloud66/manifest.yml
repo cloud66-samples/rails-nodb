@@ -1,6 +1,6 @@
 production:    
     memcached:
         configuration:
-            memory: 64
+            memory: 2048
             port: 11211
             listen_ip: 127.0.0.1
