@@ -1,5 +1,6 @@
-production:
-  rails:
-    configuration:
-      nginx:
-        perfect_forward_secrecy: true
+production:    
+    memcached:
+        configuration:
+            memory: 64
+            port: 11211
+            listen_ip: 127.0.0.1
