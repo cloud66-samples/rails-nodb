@@ -2,4 +2,4 @@ production:
   rails:
     configuration:
       nginx:
-        perfect_forward_secrecy: true
+        perfect_forward_secrecy: false
