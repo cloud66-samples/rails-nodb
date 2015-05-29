@@ -1,3 +1,3 @@
 worker: bundle exec rake test:work
 scheduler: bundle exec rake test:work
-custom_web: bundle exec unicorn_rails -c config/unicorn.rb -E $RAILS_ENV -D
+custom_web: bundle exec thin start --socket /tmp/web_server.sock --pid /tmp/web_server.pid -e $RACK_ENV -d
