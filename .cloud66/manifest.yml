@@ -1,5 +1,6 @@
 production:
   rails:
     configuration:
+      node_version: "10"
       nginx:
         perfect_forward_secrecy: false
